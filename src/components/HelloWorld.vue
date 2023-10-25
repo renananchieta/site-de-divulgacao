@@ -47,38 +47,45 @@
           </v-col>
           <v-col cols="4" lg="4" md="12" sm="12" xs>
             <v-card
-             class="mx-auto mb-4"
-             max-width="600"
-             color="#212121"
+            class="mx-auto mb-4"
+            max-width="600"
+            color="#212121"
             >
+            <v-card-title>Algumas ferramentas que utilizo</v-card-title>
               <v-img
-               src="@/assets/docker-laravel.jpg.jpg"
+               src="@/assets/docker-laravel.png"
                height="200px"
                cover
               ></v-img>
               <v-card-title>
-                Docker e Laravel
+                Docker e Laravel PHP Framework
               </v-card-title>
               <v-card-text class="mb-2">
                 Ambientes preparados com Docker para o controle da versão de PHP em projetos Laravel.
               </v-card-text>
-            </v-card>
 
-            <v-card
-             class="mx-auto mb-4"
-             max-width="600"
-             color="#212121"
-            >
               <v-img
-               src="@/assets/nvm-node.webp"
-               height="200px"
-               cover
+              src="@/assets/nvm-node.webp"
+              height="200px"
+              cover
               ></v-img>
               <v-card-title>
                 NVM Node.js
               </v-card-title>
               <v-card-text class="mb-2">
                 Utilização de NVM para controle de versão de Node.js
+              </v-card-text>
+
+              <v-img
+              src="@/assets/composition-api.png"
+              height="200px"
+              cover
+              ></v-img>
+              <v-card-title>
+                Vue.js Composition API
+              </v-card-title>
+              <v-card-text class="mb-2">
+                Composition API em projetos frontend
               </v-card-text>
             </v-card>
           </v-col>

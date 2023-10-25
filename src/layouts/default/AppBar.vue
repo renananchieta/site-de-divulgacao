@@ -15,16 +15,6 @@
     </v-sheet>
     <v-divider/>
     <Menu :menus="listaMenu" />
-    <!--<template #append> 
-          <v-btn
-            block
-            class="mx-auto"
-            variant="tonal"
-          >
-            <v-icon icon="mr-1 mdi mdi-exit-to-app" />
-            Sair
-          </v-btn>
-    </template> -->
   </v-navigation-drawer>
   <v-app-bar :elevation="2" color="#212121" >
     <v-toolbar-title>Bem vindo ao meu site</v-toolbar-title>
